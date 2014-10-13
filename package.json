@@ -1,0 +1,21 @@
+{
+  "name": "ebay-trading-api",
+  "version": "1.0.0",
+  "description": "eBay Trading API wrapper",
+  "main": "app-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eBay",
+    "wrapper",
+    "API",
+    "Trading"
+  ],
+  "dependencies": {
+    "node-rest-client" : "1.0.3",
+    "xml2js" : "0.4.4"
+  },
+  "author": "Demione",
+  "license": "ISC"
+}
