@@ -43,9 +43,12 @@ var args = {
     data : ''
 };
 
-args.data = buildXmlData(callName, {
+args.data = buildXmlData(callName, inputJsonObj);
+/*
+{
     ItemID:251636383648
-});
+}
+*/
 
 console.log(args.data);
 
